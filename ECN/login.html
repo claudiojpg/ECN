@@ -5,27 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
+    
     <title>Login</title>
 </head>
 <body>
+    <div class="container">
     
     <div class="formulario">
         <h1>Login</h1>
         <div class="campos">
             <input id="usuario" type="text" class="fc" name="username" placeholder="Usuario">
-            <input id="password" type="password" class="fc" name="password" placeholder="Contraseña">
+            
+                <div class="password-container">
+                <input id="password" type="password" class="fc" name="password" placeholder="Contraseña">
+                <i class="fa-solid fa-eye" id="eye"></i>
+              </div>
+            
+            </div>
+            
             <div class="recordar">
                 <a href="">Olvido su cotraseña?</a>
+                <hr>
+                <a href="">Registrase en ECN</a>
             </div>
             <button id="boton" class="boton" onclick="login()">Iniciar</button>
         </div>
         <div class="registro">
-        <a href="">Registrase en ECN</a>
+        
         </div>
         </div>
+    </div>
     <video autoplay muted loop id="video" src="img/inrain.mp4"></video>
     
     <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/b4b343ad21.js" crossorigin="anonymous"></script>
+    
     
 </body>
 </html>
