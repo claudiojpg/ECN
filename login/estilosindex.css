@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Newsreader', serif;
+    margin-top: 10px;
+}
+
+.linea-1 {
+    height: 5px;
+    background: linear-gradient(
+      to bottom,
+      transparent 2px,
+      black 2px,
+      black 3px,
+      transparent 1px
+    );
+    margin-top: 5px;
+  }
+.contenedor-reloj {
+    position: relative;
+    
+    top: -40px;
+    margin-bottom: -50px;
+    position: relative;
+    font-family: 'Newsreader', serif;
+    font-size: 13px;
+    text-align:left;
+    font-weight: bold;
+    
+}
+.contenedor-reloj p{
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Newsreader', serif;
+}
+
+
+header{
+    display: flex;
+    align-items:center;
+    justify-content:end;
+
+}
+
+.navbar{
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}   
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+.i{
+    width: 90px;
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: black;
+}
+h4{
+    position: relative;
+    top: auto;
+    font-family: 'Newsreader', serif;
+    font-weight: bold;
+    text-align:center;
+    
+}
+.Titulares{
+    position: relative;
+    top: auto;
+    font-family: 'Newsreader', serif;
+    font-size: 35px;
+    text-align:left
+    
+    
+
+}
+
+.Titulares a{
+
+text-decoration: none;
+color: #000;
+
+    
+}
+
