@@ -6,8 +6,10 @@ function login(){
     password= document.getElementById("password").value;
 
 
-    if(user == "claudio" && password =="1234"){
+    if(user == "admin" && password =="1234"){
        location.href="index.html"
+
+       localStorage.usuario=user
     }
     
     else{

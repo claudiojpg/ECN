@@ -16,9 +16,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Newsreader&display=swap" rel="stylesheet">
     <h1>El Caos News</h1>
+    <hr>
+    
 <div class="contenedor">
  <body>
-  <div class="linea-1"></div>
+  <div class="saludo m-1">
+  <p>Sesion Iniciada como :</p>
+  <p id="usuario"></p>
+    <script>document.getElementById('usuario').innerHTML=localStorage.user;</script>
+  </div>
+    <div class="linea-1"></div>
     <div class="contenedor-reloj">
         <h2 id="time">00:00:00</h2>
         <p id="date">Fecha</p>
@@ -58,7 +65,7 @@
             <li><a href="#" class="dropdown-item">Entretencion</a></li>
             <li><a href="#" class="dropdown-item">Internacional</a></li>
             <li><a href="#" class="dropdown-item">Miscelaneos</a></li>
-            <li><a href="contacto.html" class="dropdown-item">Miscelaneos</a></li>
+            <li><a href="contacto.html" class="dropdown-item">Contacto</a></li>
 					</ul>
 				</div>
 			</div>

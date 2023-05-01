@@ -7,7 +7,7 @@ body{
 
 .formulario{
     width: 400px;
-    height: 400px;
+    height: 450px;
     background-color:rgb(255, 255, 255);
     border-radius: 8px ;
     margin: auto;
@@ -38,6 +38,7 @@ input{
     font-size: 15px;
     background: #252323;
     border: 1px solid #017bab;
+    
    
 
 }
@@ -80,10 +81,19 @@ input :hover{
 
 input[type="text"]{
     color:rgb(255, 255, 255);
+    width: 100%;
+    padding: 12px 36px 12px 12px;
+    box-sizing: border-box;
 }
 
 input[type="password"]{
     color:rgb(254, 254, 254);
+}
+input[type="email"]{
+    color:rgb(254, 254, 254);
+    width: 100%;
+    padding: 12px 36px 12px 12px;
+    box-sizing: border-box;
 }
 
 Video {
@@ -118,12 +128,14 @@ Video {
     width: 400px;
     position: relative;
     
+    
   }
   .password-container input[type="password"],
   .password-container input[type="text"]{
     width: 100%;
     padding: 12px 36px 12px 12px;
     box-sizing: border-box;
+    
   }
   .fa-eye{
     position: absolute;
