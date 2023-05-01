@@ -9,12 +9,17 @@ function login(){
     if(user == "claudio" && password =="1234"){
        location.href="index.html"
     }
+    
     else{
      alert("error")    
     }
-
-
 }
+
+
+
+
+
+
 const time=document.getElementById('time');
 const date=document.getElementById('date');
 
