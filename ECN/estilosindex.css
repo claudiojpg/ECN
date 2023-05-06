@@ -78,7 +78,7 @@ h4{
     position: relative;
     top: auto;
     font-family: 'Newsreader', serif;
-    font-size: 35px;
+    font-size: 30px;
     text-align:left
     
     
@@ -184,4 +184,12 @@ color: #000;
     text-align: end;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     
+  }
+
+  .offcanvas-body{
+    background-color: #24262b;
+  }
+
+  .dropdown-item:hover{
+    background-color: rgb(206, 206, 206);
   }
