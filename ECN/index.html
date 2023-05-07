@@ -26,12 +26,18 @@
     <script>document.getElementById('usuario').innerHTML=localStorage.user;</script>
   </div>
     <div class="linea-1"></div>
-    <div class="contenedor-reloj">
+    <div class="container">
+          <div class="contenedor-reloj">
         <h2 id="time">00:00:00</h2>
         <p id="date">Fecha</p>
     </div>
+  </div>
+
     <nav class="navbar bg-body-tertiary">
+      
         <div class="container-fluid">
+          <div class="container">
+            
           <a class="navbar-brand"  style="color: white;">
             <nav class="navbar-toggler-icon align-content-end" 
             type="button"  data-bs-toggle="offcanvas" 
@@ -40,16 +46,14 @@
             <img src="img/21601.png" alt="" width="25" height="30" class="d-inline-block align-text-top" style= "font-family: 'Newsreader', serif;;">
             ECN
             </a>
-            
-     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
 			<div class="offcanvas-header">
 				<h5 class="offcanvas-title">El Caos News</h5>
 				<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 			</div>
 			<div class="offcanvas-body">
 				<div>
-					
-				</div>
+					</div>
 				<div class="dropdown mt-4">
 					<button 
 						class="btn btn-secondary dropdown-toggle" type="button"
@@ -58,6 +62,11 @@
 						categorias
             
 					</button>
+          <hr>
+          <form class="d-flex " role="search">
+            <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
+            <button class="btn btn-outline-dark" type="submit">Buscar</button>
+          </form>
 					<ul class="dropdown-menu" aria-labelledby="dropdownMenu">
 						<li><a href="#" class="dropdown-item">Titulares</a></li>
 						<li><a href="#" class="dropdown-item">Nacional</a></li>
@@ -70,12 +79,13 @@
 				</div>
 			</div>
 		</div>
-    <form class="d-flex " role="search">
-      <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
-      <button class="btn btn-outline-dark" type="submit">Buscar</button>
-    </form>
-           </div>
+    
+  
+
+           
       </nav>
+    </div>
+
       <div class="contenedor">
       <div class="linea-1 m-2"></div>
         <div class="contenedor-titular m-2">
