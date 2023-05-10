@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clasico suspendido</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b4b343ad21.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilosindex.css">
+    <link rel="stylesheet" href="/ECN/estilonoticia1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader&display=swap" rel="stylesheet">
+    <h1>El Caos News</h1>
+    <hr>
+
+</head>
+<body>
+    <div class="saludo m-1">
+        <p>Sesion Iniciada como :</p>
+        <p id="usuario"></p>
+          <script>document.getElementById('usuario').innerHTML=localStorage.user;</script>
+        </div>
+          <div class="linea-1"></div>
+          <div class="container">
+                <div class="contenedor-reloj">
+              <h2 id="time">00:00:00</h2>
+              <p id="date">Fecha</p>
+          </div>
+        </div>
+
+    <div class="TituloNoticia1">
+        <h1 id="TituloSuspendido"> El clásico universitario fue suspendido oficialmente tras los incidentes en el "Ester Roa"</h1>
+    </div>
+    <div class="sub-titulo">
+        <p id="subtitulo">El encuentro solo tuvo 31 minutos de juego.</p>
+    </div>
+
+    <div class="contenido">
+        <p id="primer-contenido">
+            ¡Es oficial! El clásico estudiantil entre Universidad de Chile y Universidad Católica fue suspendido por los graves 
+            incidentes que se registraron en el Estadio "Ester Roa Rebolledo" de Concepción.
+        </p>
+    </div>
+    <div class="imagen mt-2" id="fist-img">
+        <div class="col-md-4">
+            <img src="/ECN/img/suspencion super clasico.jpg" alt="imagen-suspencion">
+        </div>
+    </div>
+    <div class="contenido">
+        <p id="segundo-contenido">
+            La suspensión del encuentro tomó lugar cuando los azules atacaban y dominaban el encuentro, instancia en la que se 
+            registró el lanzamiento de los elementos de animación. En ese momento, el árbitro Francisco Gilabert detuvo el encuentro 
+            para ir donde su árbitro asistente, Diego Flores, afectado por un trauma acústico.
+            <br><br>
+            Ante dicho escenario, el cuerpo arbitral abandonó el terreno de juego y se dirigió a camarines, algo que dio a entender 
+            que el encuentro quedaba momentáneamente suspendido. Eventualmente, jugadores y trabajadores de ambos clubes, también 
+            fueron rumbo a los vestuarios.
+            <br><br>
+            Se trata de un lamentable nuevo episodio protagonizado por supuestos fanáticos del fútbol. En el último clásico entre 
+            Colo Colo y Universidad de Chile, hinchas de ambos equipos se enfrentaron en el estadio Monumental, y forofos de la barra 
+            local lanzaron implementos corto punzantes al terreno de juego.
+            <br><br>
+            Un episodio similar se vivió precisamente en un clásico universitario que se jugó en Valparaíso el pasado 28 de septiembre. 
+            Se jugaba el minuto 6 de partido, cuando se registraron lanzamientos de bombas de ruido que terminaron por afectar al 
+            portero azul Martín Parra.
+        </p>
+    </div>
+
+    <hr>
+    <div class="container_2 mt-2">
+        <div class="row mb-5">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/clasico.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Boric, derrota tras derrota: pierde en elecciones constituyentes</h5>
+                <p class="card-text">La extrema derecha chilena consiguió una contundente victoria en las elecciones constituyentes de este domingo, en la que los ciudadanos eligieron a los encargados de redactar la nueva constitución.</p>
+                <a href="/ECN/noticia1.html" class="btn btn-sm btn-primary">Ir a noticia</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/tens.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Polemica parodia</h5>
+                <p class="card-text">Tens imitaron al Cesfam de Talcahuano y enfurecieron al botar equipo médico
+                  Las profesionales de la salud se hicieron parte de las burlas que se viralizaron tras el episodio ocurrido en la región del Biobío.</p>
+                <a href="#" class="btn btn-sm btn-primary">Ir a noticia</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/sueldo.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nuevo Sueldo minimo</h5>
+                <p class="card-text">El Gobierno envió al Congreso un proyecto de ley para aumentar el sueldo mínimo. Si la iniciativa obtiene luz verde, todos los trabajadores con ingreso mínimo verán un aumento en sus salarios a partir del mes de mayo.</p>
+                <a href="#" class="btn btn-sm btn-primary">Ir a noticia</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    
+    
+</body>
+<script src="main.js"></script>
+</html>
