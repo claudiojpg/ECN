@@ -21,3 +21,17 @@
     width: 50%;
     margin: auto;
 }
+#segundo-contenido{
+    margin-top: 20px;
+}
+#listado{
+    text-align: auto;
+    margin-left: 300px;
+}
+
+.lista{
+    align-items: center;
+}
+#fotovoto{
+    width: 600px;
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reajuste sueldo</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b4b343ad21.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilosindex.css">
+    <link rel="stylesheet" href="/ECN/estilonoticias.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader&display=swap" rel="stylesheet">
+    <h1>El Caos News</h1>
+    <hr>
+
+</head>
+<body>
+    <div class="saludo m-1">
+        <p>Sesion Iniciada como :</p>
+        <p id="usuario"></p>
+          <script>document.getElementById('usuario').innerHTML=localStorage.user;</script>
+        </div>
+          <div class="linea-1"></div>
+          <div class="container">
+                <div class="contenedor-reloj">
+              <h2 id="time">00:00:00</h2>
+              <p id="date">Fecha</p>
+          </div>
+        </div>
+
+    <div class="TituloNoticia1">
+        <h1 id="TituloSuspendido">Nuevo sueldo mínimo de $500.000: Revisa cuándo aumenta y quienes lo podrán recibir</h1>
+    </div>
+    <div class="sub-titulo">
+        <p id="subtitulo">¡Buenas noticias para los trabajadores y trabajadoras de Chile!</p>
+    </div>
+
+    <div class="contenido">
+        <p id="primer-contenido">
+            Esta tarde la Cámara de Diputados y Diputadas informó, a través de sus canales oficiales, 
+            que el salario mínimo sufrirá un reajuste tras el acuerdo alcanzado en la Comisión de Hacienda. Este martes 9 de mayo, 
+            comenzó la discusión del proyecto que tiene el objetivo de modificar de manera gradual el monto del 
+            Ingreso Mínimo Mensual, alcanzando así los $500.000 a julio del próximo año.
+        </p>
+    <div class="subtitulo">
+        <h4 id ="sub-sueldo">Etapa del proyecto legislativo</h4>
+    </div>
+    <div class="contenido">
+        <p id="primer-contenido">
+            Según el sitio de la Cámara de Diputados y Diputadas, la iniciativa fue respaldada este 
+            miércoles con 120 votos a favor, 24 en contra y 3 abstenciones. Por lo que el proyecto sigue su curso al Senado, 
+            quienes tendrán que informar si aprueban o no el alza de este ingreso. 
+        </p>
+    </div>
+    <div class="imagen mt-2" id="fist-img">
+        <div class="col-md-4">
+            <img src="img/senadores aprovando sueldo.jpg" alt="imagen-suspencion">
+        </div>
+    </div>
+    <div class="contenido">
+        <p id="segundo-contenido">
+            El proceso legislativo no ha sido tomado de buena manera por la oposición, quienes intentaron retrasar el avance 
+            del proyecto y, de esta manera, que el sueldo mínimo quedara en el monto de $410.000.
+            <br>
+            Parte de este grupo ha sido el Partido Republicano que, en basé a los detalles entregados por el medio CNN, 
+            no han perdido la oportunidad de explicar las razones de su votación: "Solo empeoran el contexto económico y 
+            la calidad de vida de las familias chilenas en futuro".
+        </p>
+    </div>
+    <div class="subtitulo">
+        <h4 id ="sub-sueldo">¿En cuánto quedará el monto?</h4>
+    </div>
+    <div class="contenido">
+        <p id="segundo-contenido">
+            El Ministerio del Trabajo y Previsión Social publicó en su cuenta de Twitter el avance que tuvo el proyecto y los 
+            diversos montos que serán entregados dependiendo del periodo y, además, si es que el trabajador se encuentra entre 
+            los 18 y 65 años:
+        </p>
+    </div>
+    <div class="Lista">
+        <ul id="listado">
+            <li> Desde el 1 de mayo de 2023 se incrementaría a $440.000.</li>
+            <br>
+            <li>Desde 1 de septiembre de 2023 a $460.000.</li>
+            <br>
+            <li>Desde 1 de julio de 2024 a $500.000.</li>
+        </ul>
+    </div>
+    <div class="contenido">
+        <p id="segundo-contenido">Si bien el proyecto ha pasado una de las etapas más importantes, ahora tendrá que ser votado 
+            en la sala del Senado, quienes darán el último visto a este proyecto que buscará aumentar el sueldo mínimo de chilenos 
+            y chilenas.
+        </p>
+    </div>
+
+    <hr>
+    <div class="container_2 mt-2">
+        <div class="row mb-5">
+            <div class="col-md-4">
+                <div class="card">
+                  <img src="img/clasico.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Clasico suspendido</h5>
+                    <p class="card-text">En los 32', varios fuegos artificiales, petardos y bombas de ruido cayeron al césped del 
+                        estadio Ester Roa Rebolledo. Algunos de esos proyectiles estallaron cerca del cuarto juez del Clásico 
+                        Universitario.</p>
+                    <a href="/ECN/futbol.html" class="btn btn-sm btn-primary">Ir a noticia</a>
+                  </div>
+                </div>
+            </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/tens.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Polemica parodia</h5>
+                <p class="card-text">Tens imitaron al Cesfam de Talcahuano y enfurecieron al botar equipo médico
+                  Las profesionales de la salud se hicieron parte de las burlas que se viralizaron tras el episodio ocurrido en la región del Biobío.</p>
+                <a href="#" class="btn btn-sm btn-primary">Ir a noticia</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="/ECN/img/boric pierde.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Boric, derrota tras derrota: pierde en elecciones constituyentes</h5>
+                <p class="card-text">La extrema derecha chilena consiguió una contundente victoria en las elecciones 
+                    constituyentes de este domingo, en la que los ciudadanos eligieron a los encargados de redactar la nueva 
+                    constitución.</p>
+                <a href="/ECN/boric.html" class="btn btn-sm btn-primary">Ir a noticia</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col">
+              
+              <h4>Developed by</h4>
+              <ul>
+                <li><a href="https://www.instagram.com/donclaudio.exe/">DrCv.exe</a></li>
+                <li><a href="https://www.instagram.com/solo__gary/">Gary.h</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li>2023</li>
+                
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>ECN</h4>
+              <ul>
+                <li><a href="#">Suscribete</a></li>
+                <li><a href="#">Trabaja con nosotros</a></li>
+                <li><a href="contacto.html">Contactanos</a></li>
+                
+              </ul>
+              
+            </div>
+            
+            <div class="footer-col">
+              <h4>Social Media</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+         </div>
+      </div>
+    
+</body>
+<script src="main.js"></script>
+</html>
