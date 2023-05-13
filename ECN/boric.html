@@ -1,172 +1,169 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+  <link rel="icon" href="img/logoecnfinal.png">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Derrota de Boric</title>
+    <title>El Caos News</title>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/b4b343ad21.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilosindex.css">
-    <link rel="stylesheet" href="/ECN/estilonoticias.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Newsreader&display=swap" rel="stylesheet">
-    <h1>El Caos News</h1>
-    <hr>
-
-</head>
-<body>
-    <div class="saludo m-1">
-        <p>Sesion Iniciada como :</p>
-        <p id="usuario"></p>
-          <script>document.getElementById('usuario').innerHTML=localStorage.user;</script>
-        </div>
-          <div class="linea-1"></div>
-          <div class="container">
-                <div class="contenedor-reloj">
-              <h2 id="time">00:00:00</h2>
-              <p id="date">Fecha</p>
-          </div>
-        </div>
-
-    <div class="TituloNoticia1">
-        <h1 id="TituloSuspendido">Boric, derrota tras derrota: pierde en elecciones constituyentes</h1>
-    </div>
-    <div class="sub-titulo">
-        <p id="subtitulo">Giro en Chile: Boric retrocede y la extrema derecha se convierte en la primera fuerza política</p>
-    </div>
-
-    <div class="contenido">
-        <p id="primer-contenido">
-            El Partido Republicano, la formación de extrema derecha de Chile, obtuvo el domingo un contundente triunfo en las 
-            urnas en las elecciones de los 50 consejeros constitucionales, los encargados de redactar una nueva Ley Fundamental 
-            tras el rechazo del pasado septiembre.
-            <br> 
-            La fuerza liderada por el excandidato presidencial José Antonio Kast, a quien derrotó el mandatario, Gabriel Boric, 
-            ha defendido la vigencia de la Constitución actual, redactada en 1980, en la dictadura de Augusto Pinochet. 
-            <br>
-            La nueva propuesta de texto será plebiscitada en diciembre. Los republicanos chilenos han alcanzado un 35% de los votos, 
-            con 22 escaños dentro del consejo. Es un terremoto en la política chilena, porque esta fuerza no solo se impone al 
-            oficialismo del presidente Gabriel Boric, cuya lista ha quedado en segundo lugar con el 28%. La izquierda ha logrado 
-            apenas 17 de los 50 consejeros, con lo que se quedará sin poder de veto dentro del órgano, para lo que necesitaban 
-            21 miembros. 
-            <br>
-            La extrema derecha ha superado por mucho al conservadurismo histórico, que ha alcanzado un 21% y obtuvo 11 consejeros.
-        </p>
-    </div>
-    <div class="container mt-2">
-        <div class="row mb-5">
-          <div class="col-md-6">
-            <img id="fotovoto" src="/ECN/img/boric votando.avif" alt="img-votos">
-          </div>
-          <div class="col-md-6">
-            <img id="fotovoto" src="/ECN/img/kast filih.avif" alt="img-votos">
-          </div>
-        </div>
-    </div>
-    <div class="contenido">
-        <p id="segundo-contenido">
-            Kast habló la noche del domingo, desde la sede de su partido. 
-            “Hoy es el primer día de un mejor futuro para nuestro país”, aseguró el líder de esta formación, con vínculos con Vox. 
-            “Chile ha derrotado a un Gobierno fracasado”, añadió entre gritos de “viva Chile” y “paliza”, 
-            en alusión a la amplia ventaja sobre las otras fuerzas en competencia. El presidente Boric también se dirigió al país. 
-            En un discurso convocante, el mandatario reconoció que “el fracaso” del primer intento se debió en parte a la falta de 
-            escucha entre quienes pensaban distinto. “Quiero invitar al Partido Republicano a no cometer el error que cometimos nosotros”, 
-            añadió.
-            <br><br>
-            Las dos derechas, la extrema y la tradicional —liderada por una nueva generación que se ha comprometido con una nueva 
-            Constitución— han tenido un muy buen resultado. En conjunto, este sector político alcanza 33 consejeros en el órgano que 
-            redactará la propuesta de nueva Constitución, lo que supera incluso las mejores proyecciones de las últimas semanas. 
-            Con este resultado, pueden proponer, aprobar y modificar normas constitucionales, porque sobrepasan holgadamente los 
-            tres quintos de quórum, para lo que necesitaban 30 puestos en el Consejo Constitucional.
-            <br><br>
-            Los resultados del domingo en Chile han configurado una gran paradoja: cuando los 15,1 millones de chilenos tengan que 
-            volver a las urnas para aprobar o rechazar la nueva propuesta de Ley Fundamental en diciembre, deberán elegir entre la 
-            Constitución de Kast o la de Pinochet.
-        </p>
-    </div>
-
-    <hr>
-    <div class="container_2 mt-2">
-        <div class="row mb-5">
-          <div class="col-md-4">
-                <div class="card">
-                  <img src="img/clasico.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Clasico suspendido</h5>
-                    <p class="card-text">En los 32', varios fuegos artificiales, petardos y bombas de ruido cayeron al césped del 
-                        estadio Ester Roa Rebolledo. Algunos de esos proyectiles estallaron cerca del cuarto juez del Clásico 
-                        Universitario.</p>
-                    <a href="/ECN/futbol.html" class="btn btn-sm btn-primary">Ir a noticia</a>
-                  </div>
-                </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img src="img/tens.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Polemica parodia</h5>
-                <p class="card-text">Tens imitaron al Cesfam de Talcahuano y enfurecieron al botar equipo médico
-                  Las profesionales de la salud se hicieron parte de las burlas que se viralizaron tras el episodio ocurrido en la región del Biobío.</p>
-                <a href="/ECN/erotico.html" class="btn btn-sm btn-primary">Ir a noticia</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img src="img/sueldo.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Nuevo Sueldo minimo</h5>
-                <p class="card-text">El Gobierno envió al Congreso un proyecto de ley para aumentar el sueldo mínimo. Si la iniciativa obtiene luz verde, todos los trabajadores con ingreso mínimo verán un aumento en sus salarios a partir del mes de mayo.</p>
-                <a href="/ECN/sueldo-minimo.html" class="btn btn-sm btn-primary">Ir a noticia</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+  
   
     
-      <div class="footer">
-        <div class="container">
-          <div class="row">
-            <div class="footer-col">
-              
-              <h4>Developed by</h4>
-              <ul>
-                <li><a href="https://www.instagram.com/donclaudio.exe/">DrCv.exe</a></li>
-                <li><a href="https://www.instagram.com/solo__gary/">Gary.h</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li>2023</li>
-                
-              </ul>
-            </div>
-            <div class="footer-col">
-              <h4>ECN</h4>
-              <ul>
-                <li><a href="#">Suscribete</a></li>
-                <li><a href="#">Trabaja con nosotros</a></li>
-                <li><a href="contacto.html">Contactanos</a></li>
-                
-              </ul>
-              
-            </div>
-            
-            <div class="footer-col">
-              <h4>Social Media</h4>
-              <div class="social-links">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-              </div>
-            </div>
-          </div>
-         </div>
-      </div>
+<body>
+ 
+  </div>
+    <div class="linea-1"></div>
     
+          <div class="contenedor-reloj">
+            <h1 id="date">Fecha</h1>
+            <p id="time">00:00:00</p>
+        
+    
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logoecnfinal.png" height="40" alt="mdb logo">
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="isapres.html">Nacional</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="futbol.html">Deportes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tiktok.html">Ciencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+        <form class="d-flex input-group w-auto">
+          <input
+            type="search"
+            class="form-control"
+            placeholder="Busqueda"
+            aria-label="Search"
+          />
+          <button
+            class="btn btn-outline-secondary"
+            type="button"
+            data-mdb-ripple-color="dark"
+          >
+            Buscar Noticias
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  </div>
+  <div class="container">
+    <div class="container_2 mt-2">
+      <div class="row mb-5">
+        <div class="col-md-6">
+          <h1 style="text-align: left; font-size: 100px; ">Elecciones</h1>
+          <hr style="margin-top: 10px;" >
+          <p>09/05/2023</p>
+          <H2>Gabriel Boric, derrotado, tuvo que bajar la cabeza; reconoció el triunfo de la derecha y llamó a la unidad.</H2>
+          <p>El presidente de Chile, Gabriel Boric, hizo una alocución a los ciudadanos de su país tras la derrota en la elección de los 50 miembros del consejo que redactarán la nueva propuesta de Constitución.
+
+            En el discurso aceptó la derrota y llamó a la unidad. “Es posible conversar y entendernos que lo mejor para Chile no está en hacer crecer las divisiones, sino en buscar nuestros puntos de encuentro”, afirmó Boric.
+            
+            También reconoció el crecimiento del Partido Republicano en el país, haciendo alusión a que ellos también buscan un cambio en la Constitución.</p>
+            </div>
+            <br>
+            <br>
+            <div class="col-md-6 mt-5">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/boric (1).avif" class="d-block mx-auto w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/boric (1).jpg" class="d-block  mx-auto w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/boric (2).jpg" class="d-block mx-auto w-100" alt="...">
+                  </div>
+                  
+                </div>
+                
+                <hr>
+                <p>Fotos por Claudio Valencia</p>
+              </div>
+              
+              
+
+            </div>
+            <hr>
+            <p>El consejo estará integrado por 25 hombres y 25 mujeres y, a diferencia de la votación anterior, no tiene escaños reservados para los indígenas, que en el proceso anterior ocuparon 17 de los 155 asientos.
+
+              Ante la conformación del consejo, de mayoría republicana, Boric fue envió un mensaje. “Los invito a actuar con sabiduría y templanza, la historia de los pueblos se construye en base a un continuo aprendizaje y este consejo va a tener la responsabilidad republicana de hacer esos aprendizajes una lección para evitar que la historia se repita y se redacte un texto que represente a la gran mayoría del país”, se le escuchó decir al presidente.
+              
+              Esta vez no participarán fuerzas independientes (solamente pudieron inscribirse listas formadas por partidos políticos) y apenas compiten dos mapuches, la etnia más grande del país.</p>
+              <P>por Gary Hernandez -2023</P>
+</div>
+</div>
+</div>
+
+
+
+
+      
+     
+
+<footer class="footer-distributed">
+
+  <div class="footer-right">
+
+    <a href="https://www.instagram.com/donclaudio.exe"><i class="fa fa-instagram"></i></a>
+    <a href="https://www.instagram.com/solo__gary/"><i class="fa fa-instagram"></i></a>
+    <a href="https://github.com/claudiojpg/ECN.git"><i class="fa fa-github"></i></a>
+    
+  
+
+  </div>
+
+  <div class="footer-left">
+
+    <p class="footer-links">
+      <a class="link-1" href="index.html">Inicio</a>
+      <a href="contacto.html">Contacto</a>
+    </p>
+
+    <p>ECN  &copy; </p>
+    <p>DEVELOPED BY DRCV.EXE & GARY.H  &copy; 2023</p>
+  </div>
+
+</footer>
+
+
 </body>
 <script src="main.js"></script>
 </html>

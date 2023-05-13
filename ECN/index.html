@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <link rel="icon" href="img/log.png">
+  <link rel="icon" href="img/logoecnfinal.png">
 <head>
 
     <meta charset="UTF-8">
@@ -13,98 +13,112 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilosindex.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Newsreader&display=swap" rel="stylesheet">
     <h1>El Caos News</h1>
-    <hr>
+  
     
-
- <body>
-  <div class="saludo m-1">
-  <p>Sesion Iniciada como :</p>
-  <p id="usuario"></p>
-    <script>document.getElementById('usuario').innerHTML=localStorage.user;</script>
+<body>
+ 
   </div>
     <div class="linea-1"></div>
-    <div class="container">
-          <div class="contenedor-reloj">
-        <h2 id="time">00:00:00</h2>
-        <p id="date">Fecha</p>
-    </div>
-  </div>
-
-    <nav class="navbar bg-body-tertiary">
-      
-        <div class="container-fluid">
-          <div class="container">
-            
-          <a class="navbar-brand"  style="color: white;">
-            <nav class="navbar-toggler-icon align-content-end" 
-            type="button"  data-bs-toggle="offcanvas" 
-            data-bs-target="#offcanvas" aria-controls="offcanvas">
-            </nav>
-            <img src="img/21601.png" alt="" width="25" height="30" class="d-inline-block align-text-top" style= "font-family: 'Newsreader', serif;;">
-            ECN
-            </a>
-      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
-			<div class="offcanvas-header">
-				<h5 class="offcanvas-title">El Caos News</h5>
-				<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-			</div>
-			<div class="offcanvas-body">
-				<div>
-					</div>
-				<div class="dropdown mt-4">
-					<button 
-						class="btn btn-secondary dropdown-toggle" type="button"
-						data-bs-toggle="dropdown" id="dropdownMenu"
-					>
-						categorias
-            
-					</button>
-          <hr>
-          <form class="d-flex " role="search">
-            <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
-            <button class="btn btn-outline-dark" type="submit">Buscar</button>
-          </form>
-					<ul class="dropdown-menu" aria-labelledby="dropdownMenu">
-						<li><a href="#" class="dropdown-item">Titulares</a></li>
-						<li><a href="#" class="dropdown-item">Nacional</a></li>
-						<li><a href="#" class="dropdown-item">Deportes</a></li>
-            <li><a href="#" class="dropdown-item">Entretencion</a></li>
-            <li><a href="#" class="dropdown-item">Internacional</a></li>
-            <li><a href="#" class="dropdown-item">Miscelaneos</a></li>
-            <li><a href="contacto.html" class="dropdown-item">Contacto</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
     
+          <div class="contenedor-reloj">
+            <h2 id="date">Fecha</h2>
+        <p id="time">00:00:00</p>
+        
+    
+  </div>
   
-
-           
-      </nav>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/logoecnfinal.png" height="40" alt="mdb logo">
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="sueldo-minimo.html">Nacional</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="futbol.html">Deportes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tiktok.html">Tecnologia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+        <form class="d-flex input-group w-auto">
+          <input
+            type="search"
+            class="form-control"
+            placeholder="Busqueda"
+            aria-label="Search"
+          />
+          <button
+            class="btn btn-outline-secondary"
+            type="button"
+            data-mdb-ripple-color="dark"
+          >
+            Buscar Noticias
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+   
     </div>
 
-      <div class="contenedor">
+      
       <div class="linea-1 m-2"></div>
-        <div class="contenedor-titular m-2">
+      <div class="container">
+        <div class="contenedor-titulares">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-8">
               <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner ">
                   <div class="carousel-item active">
-                    <img src="img/1.png" class="d-block w-100 mt-2 col-6" alt="">
+                    <a href="isapres.html">
+                    <img src="img/1.png"  class="d-block w-100 mt-2 col-6" alt="">
                   </div>
+                </a>
                 <div class="carousel-item">
+                  <a href="satelite.html">
             <img src="img/2.png" class="d-block w-100 mt-2 col-6" alt="...">
                 </div>
-          <div class="carousel-item">
-                <img src="img/3.png" class="d-block w-100 mt-2 col-6 "alt="...">
-              </div>
+              </a>
+         
           </div>
         </div>
       </div>
+      <div class="col-md-4">
+        <h1 style="font-size: 100px; margin-bottom: -10px;">Clima</h1>
+        <a class="weatherwidget-io" href="https://forecast7.com/es/n33d45n70d67/santiago/" data-label_1="SANTIAGO" data-label_2="Clima" data-theme="ORIGINAL" >SANTIAGO, CHILE</a>
+        <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+        </script>
+        <hr>
+        
+        
+      </div>
+
     </div>
   </div>
   <hr>
@@ -115,19 +129,18 @@
         <img src="img/clasico.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Clasico suspendido</h5>
-          <p class="card-text">En los 32', varios fuegos artificiales, petardos y bombas de ruido cayeron al césped del estadio Ester Roa Rebolledo. Algunos de esos proyectiles estallaron cerca del cuarto juez del Clásico Universitario.</p>
+          <p class="card-text">En los 32', varios fuegos artificiales, petardos y bombas de ruido cayeron al césped del estadio Ester Roa Rebolledo. Algunos de esos proyectiles estallaron cerca del cuarto juez del Clásico Universitario.    </p>
           <a href="/ECN/futbol.html" class="btn btn-sm btn-primary">Ir a noticia</a>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="card">
-        <img src="img/tens.jpg" class="card-img-top" alt="...">
+        <img src="img/tik tok.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Polemica parodia</h5>
-          <p class="card-text">Tens imitaron al Cesfam de Talcahuano y enfurecieron al botar equipo médico
-            Las profesionales de la salud se hicieron parte de las burlas que se viralizaron tras el episodio ocurrido en la región del Biobío.</p>
-          <a href="/ECN/erotico.html" class="btn btn-sm btn-primary">Ir a noticia</a>
+          <h5 class="card-title">¿Qué países ya han prohibido TikTok?</h5>
+          <p class="card-text">Gran Bretaña se sumó el jueves a una creciente lista de países en los que crece el temor por el abuso de la privacidad y la ciberseguridad .</p>
+          <a href="/ECN/tiktok.html" class="btn btn-sm btn-primary">Ir a noticia</a>
         </div>
       </div>
     </div>
@@ -144,23 +157,14 @@
   </div>
 </div>
 <div class="contenedor-titular m-2">
+  <hr>
   <div class="row">
+    <h1 style="font-size: 100px; text-align: left;">GAMING</h1>
     <div class="col-md-8">
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner ">
-          <div class="carousel-item active">
-            <img src="img/1.png" class="d-block w-100 mt-2 col-6" alt="">
-          </div>
-        <div class="carousel-item">
-    <img src="img/2.png" class="d-block w-100 mt-2 col-6" alt="...">
-        </div>
-  <div class="carousel-item">
-        <img src="img/3.png" class="d-block w-100 mt-2 col-6 "alt="...">
-      </div>
-  </div>
-</div>
+      <iframe width=100% height=80% src="https://www.youtube.com/embed/kHuRNVulo5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="margin-top: 20px;;"></iframe>
 </div>
 <div class="col-md-4">
+  
   <div class="card">
     <img src="/ECN/img/boric pierde.webp" class="card-img-top" alt="...">
     <div class="card-body">
@@ -175,45 +179,35 @@
 
 </div>
 </div>
-
-<div class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="footer-col">
-        
-        <h4>Developed by</h4>
-        <ul>
-          <li><a href="https://www.instagram.com/donclaudio.exe/">DrCv.exe</a></li>
-          <li><a href="https://www.instagram.com/solo__gary/">Gary.h</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-          <li>2023</li>
-          
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>ECN</h4>
-        <ul>
-          <li><a href="#">Suscribete</a></li>
-          <li><a href="#">Trabaja con nosotros</a></li>
-          <li><a href="contacto.html">Contactanos</a></li>
-          
-        </ul>
-        
-      </div>
-      
-      <div class="footer-col">
-        <h4>Social Media</h4>
-        <div class="social-links">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        </div>
-      </div>
-    </div>
-   </div>
 </div>
 
+
+
+
+		<footer class="footer-distributed">
+
+			<div class="footer-right">
+
+				<a href="https://www.instagram.com/donclaudio.exe"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.instagram.com/solo__gary/"><i class="fa fa-instagram"></i></a>
+        <a href="https://github.com/claudiojpg/ECN.git"><i class="fa fa-github"></i></a>
+				
+			
+
+			</div>
+
+			<div class="footer-left">
+
+				<p class="footer-links">
+					<a class="link-1" href="index.html">Inicio</a>
+          <a href="contacto.html">Contacto</a>
+				</p>
+
+				<p>ECN  &copy; </p>
+        <p>DEVELOPED BY DRCV.EXE & GARY.H  &copy; 2023</p>
+			</div>
+
+		</footer>
 
     
 </body>
